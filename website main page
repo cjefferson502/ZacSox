@@ -3,12 +3,14 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-    box-sizing: border-box;
- 
+}
+header {
+    background-color: #000000;
+    text-align: center;
+    font-size: 35px;
+    color: white;
 }
 body {
-    font-family: Palatino;
     padding: 20px;       /*important no delete*/
     font-family: Palatino;
 }
@@ -16,91 +18,32 @@ body {
 .main {
     max-width: 100%;
     margin: auto;
-    padding: 20px;       /*important no delete*/
+}
+body {
     font-family: Palatino;
-}
-/* Style the header */
-header {
-    background-color: #000000;
-    padding: 60px;
-    text-align: center;
-    font-size: 35px;
-    color: white
-     padding: 20px;       /*important no delete*/
-    font-family: Palatino;
-}
-/* Create two columns/boxes that floats next to each other */
-nav {
-    float: left;
-    width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
-    background: #FFFFFF;
-    padding: 20px;      /*important no delete*/
-    font-family: Palatino;
-}
-/* Style the list inside the menu */
-nav ul {
-    list-style-type: none;
-    padding: 20px;
-}
-article {
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: #f1f1f1;
-    height: 300px
-}
-/* Clear floats after the columns */
-section:after {
-    content: "";
-    display: table;
-    clear: both;
-    padding: 20px;       /*important no delete*/
-    font-family: Palatino;
-}
-/* Style the footer */
-footer {
-    background-color: #000000;
-    padding: 10px;
-    text-align: center;
-    color: white;
-     padding: 20px;       /*important no delete*/
-    font-family: Palatino;
-}
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-    nav, article {
-        width: 100%;
-        height: auto;
-        padding: 20px;       /*important no delete*/
-        font-family: Palatino;
-    }
 }
 </style>
-</head>
 <body>
-    <a href="index.html">Home</a>
+  <a href="index.html">Home</a>
     <a href="portfolio.html">Portfolio</a>
-    <a href="about.html">About</a>
+     <a href="about.html">About</a>
+</body>
 <header>
-    
-  <h2>About Me</h2>
-  
+
+<img src="https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr"width=100% height="200">
+	 
 </header>
 
 <section>
-<img src="images/sis.png"  width="250" height="300">
+
   <article>
-    <h1>Cailin Jefferson</h1>
-    <p1>Oldest sister of two (one to the left, next to me), Mathletes president, and rank 4 student (colleges hit me up) Cailin is a very boring, no life having, nerd. Mom of two cats, a dog, and one asian kid. Works at Schiit Audio and goes to school at the Palmdale Aerospace Academy. Almost, maybe, kinda, good at speaking Mandarin. With great friends, amazing family, and wonderful teachers that support her, she is determined to do big things.</p1>
-    <p2>Sincerely,                                                                                                                                                                                                                                                                                         Cailin </p2>
-   
+    <h1 style="text-align:center;font-size:400%;">Home</h1>
+
+
   </article>
 </section>
 
 <footer>
-  <p>&copy; 2018 Cailin Jefferson</p>
-</footer>
-
-</body>
+      <img src="https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr"width=100% height="200">
+    </footer>
 </html>
